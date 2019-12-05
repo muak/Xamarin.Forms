@@ -188,5 +188,6 @@ jobs:
 
     - task: PublishBuildArtifacts@1
       displayName: 'Publish Artifact: ${{ parameters.artifactsName }}'
+      condition: always()
       inputs:
         ArtifactName: ${{ parameters.artifactsName }}
