@@ -38,7 +38,7 @@
       <DependentUpon>Issue7048.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-	<Compile Include="$(MSBuildThisFileDirectory)Issue6878.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Issue6878.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Issue7253.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Issue7581.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Issue7361.cs" />
@@ -110,6 +110,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Issue8222.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Issue8167.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Issue8345.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Issue8366.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Issue8269.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Issue8529.cs" />
