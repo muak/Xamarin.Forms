@@ -141,7 +141,7 @@ namespace Xamarin.Forms.Platform.Android.AppCompat
 
 			if (Element.ThumbColor != Color.Default)
 			{
-				Control.ThumbDrawable?.SetColorFilter(Element.ThumbColor, _defaultThumbColorFilter, FilterMode.Multiply);
+				Control.ThumbDrawable?.SetColorFilter(Element.ThumbColor, FilterMode.Multiply);
 				_changedThumbColor = true;
 			}
 			else
